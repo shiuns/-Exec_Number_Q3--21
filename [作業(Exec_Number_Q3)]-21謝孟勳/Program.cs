@@ -21,7 +21,6 @@ namespace _作業_Exec_Number_Q3___21謝孟勳
             {
                 for (int k = 0; k < 10; k++)
                 {
-                    // int number = i * 1100 + k * 11;
                     int number = i * 1000 + i * 100 + k * 10 + k;
                     double sqrt = Math.Sqrt(number); 
                     if (sqrt == Math.Floor(sqrt))
